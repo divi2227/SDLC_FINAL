@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SDLC_FINAL
 =======
 # 🧪 Demo Flow (Step-by-Step)
