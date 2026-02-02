@@ -1,0 +1,7 @@
+{
+  "python-envs.pythonProjects": [],
+  "python.testing.pytestArgs": ["."],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "claudeCodeChat.permissions.yoloMode": false
+}
