@@ -1,0 +1,275 @@
+[
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US1.1 - Set Investment Priority",
+    "description": "Epic: Epic 1: Stock Discovery and Ranking\nStory: US1.1: Set Investment Priority\n\nAs a **retail investor**, I want to **select my investment priority (ROI, growth, or dividends)**, so that **I can view stocks ranked by what matters most to me**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US1.1",
+    "description": "Epic: Epic 1: Stock Discovery and Ranking\nStory: US1.1: Set Investment Priority\n\nAs a **retail investor**, I want to **select my investment priority (ROI, growth, or dividends)**, so that **I can view stocks ranked by what matters most to me**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US1.2 - View Ranked Stock List",
+    "description": "Epic: Epic 1: Stock Discovery and Ranking\nStory: US1.2: View Ranked Stock List\n\nAs a **retail investor**, I want to **see a ranked list of top stocks based on my chosen priority**, so that **I can quickly identify the best stocks for my investment goals**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US1.2",
+    "description": "Epic: Epic 1: Stock Discovery and Ranking\nStory: US1.2: View Ranked Stock List\n\nAs a **retail investor**, I want to **see a ranked list of top stocks based on my chosen priority**, so that **I can quickly identify the best stocks for my investment goals**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US1.3 - Access Stock Details",
+    "description": "Epic: Epic 1: Stock Discovery and Ranking\nStory: US1.3: Access Stock Details\n\nAs a **retail investor**, I want to **view additional details about each stock (price, sector, market cap)**, so that **I can make a more informed decision about potential investments**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US1.3",
+    "description": "Epic: Epic 1: Stock Discovery and Ranking\nStory: US1.3: Access Stock Details\n\nAs a **retail investor**, I want to **view additional details about each stock (price, sector, market cap)**, so that **I can make a more informed decision about potential investments**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US1.4 - Change Investment Criteria",
+    "description": "Epic: Epic 1: Stock Discovery and Ranking\nStory: US1.4: Change Investment Criteria\n\nAs a **retail investor**, I want to **easily change my investment priority and see updated results**, so that **I can explore different investment strategies without friction**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US1.4",
+    "description": "Epic: Epic 1: Stock Discovery and Ranking\nStory: US1.4: Change Investment Criteria\n\nAs a **retail investor**, I want to **easily change my investment priority and see updated results**, so that **I can explore different investment strategies without friction**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US2.1 - Quick Access to Results",
+    "description": "Epic: Epic 2: Fast and Simple User Experience\nStory: US2.1: Quick Access to Results\n\nAs a **busy investor**, I want to **receive ranked stock recommendations within 2 minutes of setting my criteria**, so that **I can make timely investment decisions without excessive waiting**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US2.1",
+    "description": "Epic: Epic 2: Fast and Simple User Experience\nStory: US2.1: Quick Access to Results\n\nAs a **busy investor**, I want to **receive ranked stock recommendations within 2 minutes of setting my criteria**, so that **I can make timely investment decisions without excessive waiting**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US2.2 - Understand the Platform Immediately",
+    "description": "Epic: Epic 2: Fast and Simple User Experience\nStory: US2.2: Understand the Platform Immediately\n\nAs a **first-time user**, I want to **use the platform without training or instructions**, so that **I can get value from it immediately without frustration**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US2.2",
+    "description": "Epic: Epic 2: Fast and Simple User Experience\nStory: US2.2: Understand the Platform Immediately\n\nAs a **first-time user**, I want to **use the platform without training or instructions**, so that **I can get value from it immediately without frustration**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US2.3 - Minimal Interaction Required",
+    "description": "Epic: Epic 2: Fast and Simple User Experience\nStory: US2.3: Minimal Interaction Required\n\nAs a **casual investor**, I want to **complete all critical actions (setting criteria, viewing results) in 3 clicks or fewer**, so that **I can focus on decision-making rather than navigating complexity**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US2.3",
+    "description": "Epic: Epic 2: Fast and Simple User Experience\nStory: US2.3: Minimal Interaction Required\n\nAs a **casual investor**, I want to **complete all critical actions (setting criteria, viewing results) in 3 clicks or fewer**, so that **I can focus on decision-making rather than navigating complexity**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US3.1 - Verify Stock Metrics",
+    "description": "Epic: Epic 3: Data Accuracy and Trust\nStory: US3.1: Verify Stock Metrics\n\nAs a **cautious investor**, I want to **trust that stock metrics (ROI, growth, dividends) are accurate and current**, so that **my investment decisions are based on reliable information**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US3.1",
+    "description": "Epic: Epic 3: Data Accuracy and Trust\nStory: US3.1: Verify Stock Metrics\n\nAs a **cautious investor**, I want to **trust that stock metrics (ROI, growth, dividends) are accurate and current**, so that **my investment decisions are based on reliable information**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US3.2 - Understand Metric Definitions",
+    "description": "Epic: Epic 3: Data Accuracy and Trust\nStory: US3.2: Understand Metric Definitions\n\nAs a **investor with varying financial knowledge**, I want to **know exactly how each metric is calculated**, so that **I can trust and understand the platform's rankings**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US3.2",
+    "description": "Epic: Epic 3: Data Accuracy and Trust\nStory: US3.2: Understand Metric Definitions\n\nAs a **investor with varying financial knowledge**, I want to **know exactly how each metric is calculated**, so that **I can trust and understand the platform's rankings**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US4.1 - Access Platform Anytime",
+    "description": "Epic: Epic 4: Continuous Access and Reliability\nStory: US4.1: Access Platform Anytime\n\nAs a **retail investor**, I want to **access the stock analysis platform during normal business hours**, so that **I can research stocks when it matters most to my trading schedule**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US4.1",
+    "description": "Epic: Epic 4: Continuous Access and Reliability\nStory: US4.1: Access Platform Anytime\n\nAs a **retail investor**, I want to **access the stock analysis platform during normal business hours**, so that **I can research stocks when it matters most to my trading schedule**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US4.2 - Consistent Performance",
+    "description": "Epic: Epic 4: Continuous Access and Reliability\nStory: US4.2: Consistent Performance\n\nAs a **user**, I want to **have a fast, responsive experience regardless of how many other users are on the platform**, so that **I can reliably complete my analysis without delays**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US4.2",
+    "description": "Epic: Epic 4: Continuous Access and Reliability\nStory: US4.2: Consistent Performance\n\nAs a **user**, I want to **have a fast, responsive experience regardless of how many other users are on the platform**, so that **I can reliably complete my analysis without delays**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US5.1 - Save Investment Preferences",
+    "description": "Epic: Epic 5: Personalization and Preferences\nStory: US5.1: Save Investment Preferences\n\nAs a **returning investor**, I want to **have my investment priority remembered across sessions**, so that **I don't have to re-enter my preferences every time I visit**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US5.1",
+    "description": "Epic: Epic 5: Personalization and Preferences\nStory: US5.1: Save Investment Preferences\n\nAs a **returning investor**, I want to **have my investment priority remembered across sessions**, so that **I don't have to re-enter my preferences every time I visit**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Story",
+    "summary": "US5.2 - Compare Multiple Strategies",
+    "description": "Epic: Epic 5: Personalization and Preferences\nStory: US5.2: Compare Multiple Strategies\n\nAs a **investor exploring options**, I want to **quickly switch between different investment priorities and compare results**, so that **I can understand how different strategies rank stocks differently**.",
+    "labels": [
+      "user-story",
+      "sdlc"
+    ]
+  },
+  {
+    "project_key": "SDLC",
+    "issue_type": "Task",
+    "summary": "QA: Test cases for US5.2",
+    "description": "Epic: Epic 5: Personalization and Preferences\nStory: US5.2: Compare Multiple Strategies\n\nAs a **investor exploring options**, I want to **quickly switch between different investment priorities and compare results**, so that **I can understand how different strategies rank stocks differently**.\n\nAcceptance Criteria: (add Given/When/Then)\nTest Cases: (add manual + automated)",
+    "labels": [
+      "qa",
+      "test-cases",
+      "sdlc"
+    ]
+  }
+]
