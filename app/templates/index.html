@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+{% block title %}Stock Analysis Platform - Find Your Best Investments{% endblock %}
+
+{% block content %}
+<div style="margin-bottom: 2rem;">
+    <h1>Stock Analysis Platform</h1>
+    <p style="color: #a0a0a0; font-size: 1.1rem;">
+        Discover the top-performing stocks tailored to your goals.
+    </p>
+</div>
+
+<!-- Priority Selector -->
+<div class="priority-selector">
+    <h2>Select your investment priority</h2>
+    <div class="priority-buttons">
+        <button class="priority-btn {% if priority == 'roi' %}active{% endif %}" 
+                data-priority="roi" onclick="setPriority('roi')">
+            <span class="icon">💰</span>
+            <span class="label">ROI</span>
+            <span class="description">Return on Investment</span>
+        </button>
+        
+        <button class="priority-btn {% if priority == 'growth' %}active{% endif %}" 
+                data-priority="growth" onclick="setPriority('growth')">
+            <span class="icon">📊</span>
+            <span class="label">Growth</span>
+            <span class="description">Growth Potential</span>
+        </button>
+        
+        <button class="priority-btn {% if priority == 'dividends' %}active{% endif %}" 
+                data-priority="dividends" onclick="setPriority('dividends')">
+            <span class="icon">💵</span>
+            <span class="label">Dividends</span>
+            <span class="description">Dividend Yield</span>
+        </button>
+    </div>
+</div>
+
+<!-- Stock Table -->
+<div class="stock-table-container">
+    <div class="table-header">
+        <h2>Top Ranked Stocks</h2>
+        <span class="results-count">Showing {{ stocks|length }} results by {% if priority == 'roi' %}ROI{% elif priority == 'growth' %}Growth{% else %}Dividend{% endif %}</span>
+    </div>
+    
+    {% if stocks %}
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Ticker</th>
+                <th>Company</th>
+                <th class="hide-mobile">Sector</th>
+                <th>
+                    {% if priority == 'roi' %}ROI
+                    {% elif priority == 'growth' %}Growth
+                    {% else %}Dividend
+                    {% endif %}
+                </th>
+                <th class="hide-mobile">Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in stocks %}
+            <tr>
+                <td class="rank">#{{ loop.index }}</td>
+                <td class="ticker">{{ stock.ticker }}</td>
+                <td class="company-name">{{ stock.company_name }}</td>
+                <td class="hide-mobile">
+                    <span class="sector-badge">{{ stock.sector or 'N/A' }}</span>
+                </td>
+                <td>
+                    {% if priority == 'roi' %}
+                        <span class="metric-value {% if stock.roi < 0 %}negative{% endif %}">
+                            {{ '%.2f'|format(stock.roi or 0) }}%
+                        </span>
+                    {% elif priority == 'growth' %}
+                        <span class="metric-value {% if stock.growth_potential < 0 %}negative{% endif %}">
+                            {{ '%.2f'|format(stock.growth_potential or 0) }}%
+                        </span>
+                    {% else %}
+                        <span class="metric-value">
+                            {{ '%.2f'|format(stock.dividend_yield or 0) }}%
+                        </span>
+                    {% endif %}
+                </td>
+                <td class="hide-mobile">${{ '%.2f'|format(stock.current_price or 0) }}</td>
+                <td>
+                    <a href="/stock/{{ stock.ticker }}" class="view-btn">View Details</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <div class="empty-state">
+        <div class="icon">📭</div>
+        <h3>No Stocks Found</h3>
+        <p>Stock data is being loaded. Please check back shortly.</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    function setPriority(priority) {
+        // Navigate with the new priority parameter
+        window.location.href = '/?priority=' + priority;
+    }
+</script>
+{% endblock %}

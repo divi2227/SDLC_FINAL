@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Page Not Found | Stock Analysis Platform{% endblock %}
+
+{% block content %}
+<div style="text-align: center; padding: 4rem 2rem;">
+    <div style="font-size: 6rem; margin-bottom: 1rem;">404</div>
+    <h1 style="margin-bottom: 1rem;">404 - Not Found</h1>
+    <p style="color: #a0a0a0; font-size: 1.1rem; margin-bottom: 2rem;">
+        {{ message or "The page you're looking for doesn't exist." }}
+    </p>
+    <a href="/" style="
+        display: inline-block;
+        padding: 1rem 2rem;
+        background: #4ade80;
+        color: #1a1a2e;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: all 0.3s;
+    ">
+        ← Back to Home
+    </a>
+</div>
+{% endblock %}
